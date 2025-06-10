@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Date;
 
 public class Autor {
@@ -5,7 +7,7 @@ public class Autor {
     private String nome;
     private Date dataNascimento;
 
-    public Autor(int id, String nome, Date dataNascimento){
+    public Autor(int id, String nome, Date dataNascimento) {
         this.id = id;
         this.nome = nome;
         this.dataNascimento = dataNascimento;
@@ -37,12 +39,10 @@ public class Autor {
 
     @Override
     public String toString() {
-        return  "Autor{" +
+        return "Autor{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", dataNascimento=" + dataNascimento +
                 '}';
     }
 }
-
-
